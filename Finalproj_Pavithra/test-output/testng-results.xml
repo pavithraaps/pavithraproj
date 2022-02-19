@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-19T16:02:28 IST" name="Default suite" finished-at="2022-02-19T16:02:47 IST" duration-ms="18936">
+    <groups>
+    </groups>
+    <test started-at="2022-02-19T16:02:28 IST" name="Default test" finished-at="2022-02-19T16:02:47 IST" duration-ms="18936">
+      <class name="Testcases.TestCase_Mrs">
+        <test-method is-config="true" signature="Launching_Browser()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:15 IST" name="Launching_Browser" finished-at="2022-02-19T16:02:28 IST" duration-ms="13094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launching_Browser -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:28 IST" name="BeforeTest" finished-at="2022-02-19T16:02:28 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="log_in()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:28 IST" name="log_in" finished-at="2022-02-19T16:02:28 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log_in -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:28 IST" name="BeforeTest" finished-at="2022-02-19T16:02:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="Sign_in()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:28 IST" name="Sign_in" finished-at="2022-02-19T16:02:34 IST" depends-on-methods="Testcases.TestCase_Mrs.log_in" duration-ms="6155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_in -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:34 IST" name="BeforeTest" finished-at="2022-02-19T16:02:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="Find_patient()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:34 IST" name="Find_patient" finished-at="2022-02-19T16:02:40 IST" depends-on-methods="Testcases.TestCase_Mrs.Sign_in" duration-ms="5934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Find_patient -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:40 IST" name="BeforeTest" finished-at="2022-02-19T16:02:40 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="CaptureVitals()[pri:0, instance:Testcases.TestCase_Mrs@47caedad]" started-at="2022-02-19T16:02:40 IST" name="CaptureVitals" finished-at="2022-02-19T16:02:47 IST" depends-on-methods="Testcases.TestCase_Mrs.Find_patient" duration-ms="6318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureVitals -->
+      </class> <!-- Testcases.TestCase_Mrs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
